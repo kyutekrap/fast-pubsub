@@ -8,9 +8,13 @@ Fast use of parm-pub-sub model in JS/TS without React Hooks like useState, useEf
 
 #### How to Initialize:
 * For JS
-> const content = new PubSub();
+```javascript
+const content = new PubSub();
+```
 * For TS (You can type your variable)
-> const content = new PubSub<string>();
+```typescript
+const content = new PubSub<string>();
+```
 
 #### Methods:
 * parameter

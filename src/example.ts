@@ -1,4 +1,4 @@
-import { PubSub } from "../index.js";
+import { PubSub } from "fast-pubsub";
 
 const content = new PubSub<string>();
 

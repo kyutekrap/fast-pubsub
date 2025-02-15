@@ -1,9 +1,9 @@
-# easy-pubsub
-Easy use of parm-pub-sub model in JS/TS without React Hooks like useState, useEffect, etc.
+# fast-pubsub
+Fast use of parm-pub-sub model in JS/TS without React Hooks like useState, useEffect, etc.
 
 ***
 > Run with <br/>
-> <b>npm install easy-pubsub</b>
+> <b>npm install fast-pubsub</b>
 ***
 
 #### How to Initialize:

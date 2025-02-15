@@ -1,0 +1,4 @@
+src/
+*.html
+tsconfig.json
+package-lock.json

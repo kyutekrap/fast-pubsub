@@ -1,0 +1,15 @@
+{
+  "name": "easy-pubsub",
+  "description": "Easy use of pubsub for JS/TS without React Hooks like useState",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}

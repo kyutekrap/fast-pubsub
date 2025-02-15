@@ -19,10 +19,10 @@ class MyComponent {
 
 new MyComponent();
 
-content.publish("This is easy-pubsub");
+content.publish("This is fast-pubsub");
 setTimeout(() => {
     content.publish("made by kyutekrap");
 }, 3000);
 setTimeout(() => {
-    content.publish("for TypeScript.");
+    content.publish("for JS/TS.");
 }, 6000);

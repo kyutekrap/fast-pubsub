@@ -1,7 +1,7 @@
 {
   "name": "fast-pubsub",
   "description": "Fast use of pubsub for JS/TS without React Hooks like useState",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "./index.js",
   "repository": {
@@ -16,8 +16,5 @@
   "devDependencies": {
     "typescript": "^5.7.3",
     "vite": "^6.1.0"
-  },
-  "dependencies": {
-    "fast-pubsub": "^0.0.3"
   }
 }

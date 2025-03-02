@@ -1,7 +1,7 @@
 export class PubSub {
 
-    constructor() {
-        this.value = undefined;
+    constructor(initial = undefined) {
+        this.value = initial;
         this.subscribers = [];
     }
 

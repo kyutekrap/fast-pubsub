@@ -1,6 +1,6 @@
 import { PubSub } from "fast-pubsub";
 
-const content = new PubSub<string>();
+const content = new PubSub<string>("This is fast-pubsub");
 
 class MyComponent {
 
@@ -19,7 +19,6 @@ class MyComponent {
 
 new MyComponent();
 
-content.publish("This is fast-pubsub");
 setTimeout(() => {
     content.publish("made by kyutekrap");
 }, 3000);

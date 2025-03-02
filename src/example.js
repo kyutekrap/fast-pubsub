@@ -1,13 +1,11 @@
-import { PubSub } from "fast-pubsub";
+import { PubSub } from "../index.js";
 
-const content = new PubSub();
+const content = new PubSub("This is fast-pubsub");
 
 class MyComponent {
-
-    span;
-
     constructor() {
         this.span = document.createElement("span");
+        this.onEvent();
         content.subscribe(() => this.onEvent());
         document.body.appendChild(this.span);
     }
@@ -19,7 +17,6 @@ class MyComponent {
 
 new MyComponent();
 
-content.publish("This is fast-pubsub");
 setTimeout(() => {
     content.publish("made by kyutekrap");
 }, 3000);
